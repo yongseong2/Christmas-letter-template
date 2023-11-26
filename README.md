@@ -4,14 +4,6 @@
 
 Here's a comprehensive guide on how to use and customize this template.
 
-## Features
-
-- **Snowy Background**: Multiple snow images create a charming winter scene.
-- **Customizable Letter**: The template includes a section where you can personalize the message with the recipient's and your name.
-- **Festive Music**: An autoplay Christmas music feature enhances the festive mood (with manual play/pause option).
-- **Interactive Elements**: Clickable elements that trigger audio play.
-- **Holiday Images**: Santa and snowman images add to the Christmas theme.
-
 ## How to Use
 
 1. **Edit the Letter**: Open `index.html` and replace `[Recipient's Name]` and `[Your Name]` in the `<h2>` tag with the actual names.
@@ -22,7 +14,7 @@ Here's a comprehensive guide on how to use and customize this template.
 
 ## Browser Compatibility
 
-The template is compatible with modern mobile browsers.
+The template is compatible with mobile browsers.
 
 ## Files Included
 
@@ -54,7 +46,7 @@ Merry Christmas! 🎄
 
 ## 브라우저 호환성
 
-이 템플릿은 현대적인 모바일 브라우저와 호환됩니다.
+이 템플릿은 모바일 브라우저와 호환됩니다.
 
 ## 포함된 파일들
 

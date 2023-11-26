@@ -50,8 +50,8 @@ Merry Christmas! 🎄
 
 ## 포함된 파일들
 
-- `index.html`: 편지의 구조를 담고 있는 메인 HTML 파일.
-- `index.css`: 편지의 스타일을 위한 CSS 파일.
+- `index.html`: 편지 메인 HTML 파일.
+- `index.css`: 스타일을 위한 CSS 파일.
 - `asset/`: 이미지 (`snow.png`, `snowman.png`, `santa.png`)와 음악 (`christmas.mp3`)을 담고 있는 폴더.
 
 ## 라이선스

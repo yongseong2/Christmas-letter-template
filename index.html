@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>편지</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <audio id="myAudio" autoplay>
+      <source src="asset/music/christmas.mp3" type="audio/mp3" />
+      audio 오류
+    </audio>
+    <div class="container">
+      <div class="header-images">
+        <img src="asset/image/snow.png" class="snow-image snow-image-1" />
+        <img src="asset/image/snow.png" class="snow-image snow-image-2" />
+        <img src="asset/image/snow.png" class="snow-image snow-image-3" />
+        <img src="asset/image/snow.png" class="snow-image snow-image-4" />
+        <img src="asset/image/snow.png" class="snow-image snow-image-5" />
+      </div>
+      <h2 class="dotted-underline">
+        [Recipient's Name]<br />
+        As the joyful Christmas season approaches, I want to extend my warm
+        greetings through this letter. The times we've spent together this year
+        have been a great joy and comfort. Along with this letter, I hope you
+        have a warm Christmas, and may the new year bring even more happiness
+        and health. I wish that all these moments continue in the future, and
+        have a happy new year. Merry Christmas!
+        <br />
+        [Your Name]
+      </h2>
+      <div class="letter-images">
+        <img src="asset/image/snowman.png" class="santa-image" />
+        <img src="asset/image/santa.png" class="santa-image" />
+      </div>
+    </div>
+  </body>
+  <script>
+    document.body.addEventListener('click', function () {
+      var myAudio = document.getElementById('myAudio');
+      if (myAudio.paused) {
+        myAudio.play();
+      }
+    });
+  </script>
+</html>

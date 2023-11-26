@@ -1,0 +1,88 @@
+body {
+  font-family: 'Nanum Brush Script', cursive;
+  background: linear-gradient(#eeece1 85%, #bc1323 100%);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-block: 10%;
+  padding-inline: 5%;
+  height: 100vh;
+}
+
+.dotted-underline {
+  line-height: 200%;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  text-underline-offset: 5px;
+  text-decoration-color: #d9ccc5;
+  text-decoration-thickness: 1.3px;
+}
+
+.letter-images {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.santa-image {
+  width: 5rem;
+}
+
+.header-images {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: -1;
+}
+
+@keyframes snowfall {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(90vh);
+  }
+}
+
+.snow-image {
+  width: 2rem;
+  opacity: 60%;
+  position: absolute;
+}
+
+.snow-image-1 {
+  left: 30%;
+  animation: snowfall 8s linear infinite;
+  animation-delay: -2s;
+}
+
+.snow-image-2 {
+  left: 50%;
+  animation: snowfall 12s linear infinite;
+  animation-delay: -6s;
+}
+
+.snow-image-3 {
+  left: 75%;
+  animation: snowfall 10s linear infinite;
+  animation-delay: -4s;
+}
+
+.snow-image-4 {
+  left: 65%;
+  animation: snowfall 16s linear infinite;
+  animation-delay: -10s;
+}
+
+.snow-image-5 {
+  left: 10%;
+  animation: snowfall 14s linear infinite;
+  animation-delay: -8s;
+}

@@ -38,7 +38,7 @@ Created by SeongYong
 
 ---
 
-Merry Christmas 🎄
+Merry Christmas! 🎄
 
 # 크리스마스 편지 템플릿
 
@@ -70,4 +70,4 @@ Created by SeongYong
 
 ---
 
-즐거운 크리스마스 보내세요! 🎄
+메리크리스마스! 🎄
